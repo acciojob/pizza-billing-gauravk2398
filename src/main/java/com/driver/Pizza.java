@@ -29,10 +29,10 @@ public class Pizza {
         this.isVeg = isVeg;
         if(isVeg){
              price=vegPizzaBaseP;
-             bill = pizzaBaseBill +vegPizzaBaseP + "\n";
+
         }else{
             price=nonVegBaseP;
-            bill = pizzaBaseBill +  nonVegBaseP +"\n";
+
         }
         // your code goes here
     }
@@ -75,6 +75,14 @@ public class Pizza {
 
     public String getBill(){
         // your code goes here
+        if(isVeg){
+            bill = pizzaBaseBill +vegPizzaBaseP + "\n";
+        }
+
+        if(!isVeg){
+            bill = pizzaBaseBill +  nonVegBaseP +"\n";
+        }
+
 
         if(cFlag){
             bill+=cheeseBill+cheeseP+"\n";
