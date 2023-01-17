@@ -97,7 +97,7 @@ public class Pizza {
         if(pFlag){
             bill+=paperBagBill+paperBagP+"\n";
         }
-        bill+=totalBill+price;
+        bill+=totalBill+price+"\n";
         this.bill=bill;
 
         return this.bill;
