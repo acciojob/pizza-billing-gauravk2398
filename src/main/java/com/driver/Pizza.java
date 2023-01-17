@@ -12,11 +12,11 @@ public class Pizza {
     int vegPizzaBaseP = 300;
     int nonVegBaseP = 400;
 
-    String cheeseBill = "Extra Cheese Added: ";
-    String toppingBill = "Extra Toppings Added: ";
-    String paperBagBill = "Paperbag Added: ";
-    String totalBill = "Total Price: ";
-    String pizzaBaseBill = "Base Price Of The Pizza: ";
+    String cheeseBill = "Extra Cheese Added:";
+    String toppingBill = "Extra Toppings Added:";
+    String paperBagBill = "Paperbag Added:";
+    String totalBill = "Total Price:";
+    String pizzaBaseBill = "Base Price Of The Pizza:";
     boolean cFlag=false;
     boolean tFlag=false;
     boolean pFlag=false;
